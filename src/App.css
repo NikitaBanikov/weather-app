@@ -1,0 +1,220 @@
+.App {
+  width: 800px;
+  height: 600px;
+  border-radius: 8px;
+  background-color: #282c34;
+}
+
+.App-header {
+  height: 60px;
+  display: flex;
+  gap: 17px;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2C2E67;
+  color: aliceblue;
+  border-radius: 6px;
+  gap: 10px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.App-button:hover {
+  transform: scale(1.05);
+  border: 1px solid aliceblue;
+}
+
+.Header-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.Header-input {
+  padding-left: 10px;
+  border-radius: 6px;
+  width: 590px;
+  height: 40px;
+  border: none;
+  background-color: #2C2E67;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.Header-input::placeholder {
+  color: aliceblue;
+  padding: 10px;
+}
+
+.Header-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  width: 40px;
+  height: 40px;
+  background-color: #2C2E67;
+  cursor: pointer;
+}
+
+.Header-button:hover {
+  transform: scale(1.05);
+  border: 1px solid aliceblue;
+}
+
+.Container {
+  height: 540px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Main-title {
+  text-align: center;
+  color: aliceblue;
+}
+
+.Buttons-wrapper {
+  display: flex;
+  gap: 40px;
+}
+
+.Main-button {
+  cursor: pointer;
+  width: 200px;
+  height: 60px;
+  background-color: #2C2E67;
+  color: aliceblue;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.Main-button:hover {
+  transform: scale(1.05);
+  border: 1px solid aliceblue;
+}
+
+.Today-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: aliceblue;
+}
+
+.Today-weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 400px;
+  background-color: #2C2E67;
+  border-radius: 8px;
+}
+
+.Today-weather:hover {
+  color: black;
+  background-color: #C4C4C8;
+}
+
+.City-name {
+  margin-top: 0;
+  width: fit-content;
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 1px solid aliceblue;
+}
+
+.Temperature {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.Indicators-container {
+  width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.Indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 200px;
+  height: 100px;
+  background-color: #2C2E67;
+  border-radius: 8px;
+}
+
+.Indicator:hover {
+  color: black;
+  background-color: #C4C4C8;
+}
+
+.Indicator-img {
+  width: 30px;
+  height: 30px;
+}
+
+.Indicator-info-container {
+  width: 106px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Indicator-info__text {
+  font-size: 20px;
+}
+
+.Indicator-info__value {
+  width: fit-content;
+  margin: 10px;
+}
+
+.Week-container {
+  display: flex;
+  gap: 20px;
+}
+
+.Day {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+  width: 130px;
+  height: 200px;
+  background-color: #2C2E67;
+  border-radius: 8px;
+  align-self: center;
+}
+
+.Day:hover {
+  color: black;
+  background-color: #C4C4C8;
+}
+
+.Date {
+  font-weight: bold;
+}
+
+.Error-container {
+  margin: 10px;
+  text-align: center;
+  color: red;
+}
+
+.Info {
+  color: #C4C4C8;
+}
